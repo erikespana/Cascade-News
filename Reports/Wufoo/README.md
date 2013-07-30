@@ -17,10 +17,10 @@
 * Attach the XML block to a template region.
 * Attach forms.vm or forms-count.vm to the same region as the XML block.
 
-* **forms.vm**
+#### forms.vm ####
 	
-	Generates a 3-column HTML table listing each form's title, creation date and notification email addresses.
+* Generates a 3-column HTML table listing each form's title, creation date and notification email addresses.
 
-* **forms-count.vm**
+#### forms-count.vm ####
 
-	Returns the total number of forms associated with your Wufoo account.
+* Returns the total number of forms associated with your Wufoo account.
