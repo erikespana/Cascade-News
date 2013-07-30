@@ -11,7 +11,7 @@
 * Cascade Server 6.10+ with Velocity 1.7
 * A [Wufoo.com](http://wufoo.com) account
 
-#### Setup #### 
+#### Setup ####
 * Visit https://{subdomain}.wufoo.com/api/v3/forms.xml (replace {subdomain} with your Wufoo account subdomain). Learn more about the [Wufoo Forms API](http://help.wufoo.com/articles/en_US/SurveyMonkeyArticleType/The-Forms-API).
 * View the source and copy it into a new XML block in your Cascade Server instance.
 * Attach it to a template region.
