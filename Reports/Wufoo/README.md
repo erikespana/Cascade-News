@@ -22,4 +22,5 @@
 	Generates a 3-column HTML table listing each form's title, creation date and notification email addresses.
 
 * **forms-count.vm**
-	Returns the total number of forms.
+
+	Returns the total number of forms associated with your Wufoo account.
