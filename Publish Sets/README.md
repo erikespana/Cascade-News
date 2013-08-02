@@ -1,3 +1,5 @@
+Removed News & Events.
+
 # Cascade Publish Sets #
 
 #### Summary ####
@@ -22,7 +24,6 @@ These web pages are updated every hour, between 9:30 am & 5:30 pm, on weekdays (
 
 * [Alumni news](http://www.union.edu/news/alumni.php)
 * [Faculty/Staff news](http://www.union.edu/news/faculty-staff.php)
-* [News & Events](http://www.union.edu/news/)
 * [Student news](http://www.union.edu/news/students.php)
 * The current month's news archive (e.g. /news/stories/2013/04/index.php)
 
