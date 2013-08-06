@@ -95,10 +95,12 @@
             </p>
             <p>
                 <xsl:choose>
-                    <!-- Display the full address for (National) College Fair-->
-                    <xsl:when test="(u80admteventtype = 'CF') or (u80admteventtype = 'NCF') or (u80admteventtype = '7GS')">
+                    <!-- If u80admteventfullname is not blank, use the u80admtevent set of fields to display the address. -->
+                    <xsl:when test="u80admteventfullname != ''">
                         <xsl:value-of select="u80admteventfullname"/><br/>
-                        <xsl:value-of select="u80admteventaddr[1]"/><br/>
+                        <xsl:if test="u80admteventaddr[1] != ''">
+                            <xsl:value-of select="u80admteventaddr[1]"/><br/>
+                        </xsl:if>
                         <xsl:if test="u80admteventaddr[2] != ''">
                             <xsl:value-of select="u80admteventaddr[2]"/><br/>
                         </xsl:if>
