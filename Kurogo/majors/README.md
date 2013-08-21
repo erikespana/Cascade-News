@@ -1,26 +1,23 @@
-# WuFoo Forms #
+# Majors #
+
+Use the Content Module to list information about Union's majors, minors and programs.
 
 #### Summary ####
- Generates an inventory of Wufoo forms listed in chronological order, along with notification information.
- The report shows each form's:
-* Title
-* Creation date
-* Email addresses set to receive form notifications
+* 1. Majors, Minors and Programs links
+* 2. List all 44 majors
+* 3. For each major, display the Content Introduction, Content Copy, Contact Info and Outcome data.
 
 #### Requirements ####
 * Cascade Server 6.10+ with Velocity 1.7
-* A [Wufoo.com](http://wufoo.com) account
+* Kurogo 1.3
 
 #### Setup ####
-* Visit [https://{subdomain}.wufoo.com/api/v3/forms.xml](http://help.wufoo.com/articles/en_US/SurveyMonkeyArticleType/The-Forms-API) (replace {subdomain} with your Wufoo account subdomain).
-* Copy and paste the source code into a new XML block in Cascade Server.
-* Attach the XML block to a template region.
+* Create a Content Type Index Block that indexes the content of each major.
+* Attach the block/format to a page region that generates the feeds-major.ini file.
 * Attach forms.vm or forms-count.vm to the same region as the XML block.
 
-#### forms.vm ####
+#### majors.vm ####
 	
-* Generates a 3-column HTML table listing each form's title, creation date and notification email addresses.
+* Generates a feeds.ini file for a grouped list of all majors.
 
-#### forms-count.vm ####
-
-* Returns the total number of forms associated with your Wufoo account.
+https://modolabs.jira.com/wiki/display/KDOC/Content+Module
