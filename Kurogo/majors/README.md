@@ -9,10 +9,15 @@ Use the Content Module to list information about Union's majors, minors and prog
 
 #### Requirements ####
 * Cascade Server 6.10+ with Velocity 1.7
-* Kurogo 1.3
+* Assumes majors can be indexed by a unique content type.
+* Kurogo 1.4.1
 
-#### Setup ####
-* Create a Content Type Index Block that indexes the content of each major.
+#### Ingredients ####
+* Index Block (content type) with:
+** Regular Content (display-name, path)
+** System Metadata
+** User metadata
+* 
 * Attach the block/format to a page region that generates the feeds-major.ini file.
 * Attach forms.vm or forms-count.vm to the same region as the XML block.
 
