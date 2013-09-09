@@ -22,13 +22,15 @@ $_SortTool.sort( $majors )
 #set ( $email =     $_XPathTool.selectSingleNode($page, "dynamic-metadata[name='email']/value").text    )
 #set ( $mapLink =   $_XPathTool.selectSingleNode($page, "dynamic-metadata[name='mapLink']/value").text  )
 #set ( $content =	$_XPathTool.selectSingleNode($page, "system-data-structure/content")  )
-#set ( $pageIntro = $content.getChild("pageText") )
-#set ( $pageIntroSerialized = $_SerializerTool.serialize( $pageIntro, true ) )
+##set ( $pageIntro = $content.getChild("pageIntroduction") )
+##set ( $pageIntroSerialized = $_SerializerTool.serialize( $pageIntro, true ) )
+#set ( $pageText = $content.getChild("pageText") )
+#set ( $pageTextSerialized = $_SerializerTool.serialize( $pageText, true ) )
 #if ( $name == 'index')[${id}]
 TITLE = "${_EscapeTool.xml( $display-name )}"
 SHOW_TITLE = 0
 CONTENT_TYPE = "html"
-CONTENT_HTML = "${_EscapeTool.quote( pageIntroSerialized )}<p><a href='tel:${phone}'>${phone}</a></p>
+CONTENT_HTML = "${_EscapeTool.javascript( $pageTextSerialized )}<p><a href='tel:${phone}'>${phone}</a></p>
 <p><a href='mailto:${email}'>${email}</a></p>
 <p><a href='$mapLink'>${location}</a><br/>807 Union Street<br/>Schenectady, NY 12308</p>
 <p>Visit the <a href='http://www.union.edu${path}.php'>full website.</a></p>"
