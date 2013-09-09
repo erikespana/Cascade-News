@@ -1,4 +1,4 @@
-# Majors, Minors, Academic Programs and Union University Joint Programs #
+## Majors, Minors, and Academic Programs ##
 
 ### Majors ###
 
