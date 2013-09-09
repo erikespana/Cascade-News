@@ -1,6 +1,9 @@
-# Majors #
+# Majors, Minors, Academic Programs and Union University Joint Programs #
 
-Use the Content Module to list information about Union's majors, minors and programs.
+### Majors ###
+
+* Uses Kurogo's [Content Module](https://modolabs.jira.com/wiki/display/KDOC/Content+Module) to list information about Union's majors, minors and programs.
+* Assumes each Major corresponds to a Cascade page and that all pages are part of the same Content Type.
 
 #### Summary ####
 * 1. Majors, Minors and Programs links
