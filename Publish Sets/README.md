@@ -11,14 +11,11 @@ During the summer: published at 10:01 every weekday (0 1 10 ? * MON-FRI).
 * [/admissions/blogs/index.php](http://www.union.edu/admissions/blogs/)
 * [/admissions/applicant_portal/sidebars/login.php]
 
-
-#### These pages are updated on a simple schedule and don't require a cron expression: ####
-
-Published daily at 5 pm:
+Published daily at 5 pm (no cron expression required):
 
 * [Admissions Open-Houses](http://www.union.edu/admissions/visit/open-houses/)
 
-Published daily at 3 am:
+Published daily at 3 am (no cron expression required):
 
 * [Admissions in Your Area](http://www.union.edu/admissions/in-your-area/)
 
