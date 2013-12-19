@@ -1,6 +1,6 @@
 # Cascade Server Publish Sets #
 
- I'm using [cron expressions](http://www.quartz-scheduler.org/documentation/quartz-1.x/tutorials/crontrigger) to automate our frequent web updates. Here's a list of the schedules with corresponding cron expressions translated in English (in parentheses).
+ I'm using [cron expressions](http://www.quartz-scheduler.org/documentation/quartz-1.x/tutorials/crontrigger) to automate the publishing of pages from Cascade Server. Here's a list of the schedules with their cron expressions translated in English.
 
 
 #### Admissions ####
