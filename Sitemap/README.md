@@ -1,17 +1,17 @@
 
 Creates an [XML sitemap](http://www.union.edu/feeds/sitemaps/reboot.xml), using the [sitemaps.org](http://www.sitemaps.org/protocol.html) protocol (same protocol used by Google, Yahoo, and Bing).
 
+I wrote this Velocity script because Hannon Hill's [XSLT script](https://github.com/hannonhill/XSLT-Workbook/tree/master/Site-Map) doesn't work on Cascade Server sites employing a folder/page asset pair to represent a single webpage.
+
 **Google Sitemap 2.vm**
-	
-	* Tailored for Cascade Server sites that employ a folder + page pair to represent a single page in a website's information architecture.
 
-	* Hard-coded to ignore any URL that starts with /news because Google recommends submitting a separate sitemap for News articles.
+* Hard-coded to ignore any URL that starts with /news because Google recommends submitting a separate sitemap for News articles.
 
-	* Only lists published pages and uses the last published date for the <lastmod> field.
+* Only lists published pages and uses the last published date for the <lastmod> field.
 
-	* Flags pages not in folder/index form.
+* Flags pages not in folder/index form.
 
-    * Currently does not support priority node.
+* Currently does not support priority node.
 
 ### Concerns ###
 You'll have to experiment with how many levels deep to index. You don't want to use too many resources.
