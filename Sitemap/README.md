@@ -1,5 +1,5 @@
 
-Creates an XML sitemap, using [http://www.sitemaps.org/protocol.html](http://www.sitemaps.org/protocol.html) (same protocol used by Google, Yahoo, and Bing). Example: [http://www.union.edu/feeds/sitemaps/reboot.xml](http://www.union.edu/feeds/sitemaps/reboot.xml)
+Creates an [XML sitemap](http://www.union.edu/feeds/sitemaps/reboot.xml), using [http://www.sitemaps.org/protocol.html](http://www.sitemaps.org/protocol.html) (same protocol used by Google, Yahoo, and Bing).
 
 **Google Sitemap 2.vm**
 	
