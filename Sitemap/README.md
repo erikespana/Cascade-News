@@ -1,5 +1,5 @@
 
-Creates an [XML sitemap](http://www.union.edu/feeds/sitemaps/reboot.xml), using [http://www.sitemaps.org/protocol.html](http://www.sitemaps.org/protocol.html) (same protocol used by Google, Yahoo, and Bing).
+Creates an [XML sitemap](http://www.union.edu/feeds/sitemaps/reboot.xml), using the [sitemaps.org](http://www.sitemaps.org/protocol.html) protocol (same protocol used by Google, Yahoo, and Bing).
 
 **Google Sitemap 2.vm**
 	
@@ -9,7 +9,7 @@ Creates an [XML sitemap](http://www.union.edu/feeds/sitemaps/reboot.xml), using 
 
 	* Only lists published pages and uses the last published date for the <lastmod> field.
 
-	* Flags pages not in `folder/index` form.
+	* Flags pages not in folder/index form.
 
     * Currently does not support priority node.
 
