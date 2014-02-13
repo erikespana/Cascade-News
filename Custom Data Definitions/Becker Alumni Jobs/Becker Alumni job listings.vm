@@ -21,9 +21,11 @@ $_SortTool.sort($sys_pages)
 
         #set ( $link = $page.getChild('link').value )
         #set ( $title = $_EscapeTool.xml( $page.getChild('title').value) )
+        #set ( $pubDate = $_DateTool.getDate($page.getChild('created-on').value))
+        #set ( $pubDateFormatted = $_DateTool.format('medium', $pubDate) )
 
         <li>
-            <a href="${link}" title="${title}">${title}</a>
+            <a href="${link}" title="${pubDateFormatted}">${title}</a>
         </li>
     #end
 #end
