@@ -1,4 +1,10 @@
-A script that generates the include files for the Head section of a page
+Description
+An XSLT format that generates CSS and javascript include files for the <head> section of a page.
+
+Goals
+* Ensure certain CSS and javascript code (e.g. Google Analytics) are added to each page.
+* Manage all CSS and javascript code in one place.
+* Flexibility to add or remove certain components from individual pages via the data definition.
 
 * Default includes
 	* jQuery 1.8.2
@@ -20,5 +26,8 @@ A script that generates the include files for the Head section of a page
 		* [PrettyPhoto]
 		* Google Maps API
 		* Google Maps Banner javascript
-		* Flickr Side Widget
+		* [Flickr Side Widget](http://www.newmediacampaigns.com/page/jquery-flickr-plugin)
 		* jQuery Tweet
+
+Disadvantages
+* Having this as the only mechanism for including CSS and javascript doesn't provide other users the flexibility to add special case CSS or javascript.
