@@ -4,7 +4,7 @@ Index Blocks
 * Used to generate RSS 2.0 feeds for http://m.union.edu/news.
 	* API:/news/news-releases
 	* API:/news/announcements
-* Metrics: Orange (1100 ms).
+* Metrics: Red (2697 ms).
 
 
 **news:_Site Support/Blocks/Index/Content Type/Union in the media - metadata**
