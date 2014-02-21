@@ -1,9 +1,12 @@
-## Majors, Minors, and Academic Programs ##
+## Majors and Minors ##
 
-### Majors ###
+Uses Kurogo's [Content Module](https://modolabs.jira.com/wiki/display/KDOC/Content+Module) to display a list of Union's majors and minors.
 
-* Uses Kurogo's [Content Module](https://modolabs.jira.com/wiki/display/KDOC/Content+Module) to list information about Union's majors, minors and programs.
-* Assumes each Major corresponds to a Cascade page and that all pages are part of the same Content Type.
+### How it works ###
+
+* The module's top-level links are saved in feeds.ini and feedgroups.ini.
+* The static HTML content for each major is saved in feeds-majors.ini.
+* feeds-majors.ini The page is generated using 
 
 #### Summary ####
 * 1. Majors, Minors and Programs links
