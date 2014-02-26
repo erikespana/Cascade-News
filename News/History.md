@@ -1,3 +1,10 @@
+February 24, 2014
+
+* Created news:/_Site Support/Formats/news SPIF - sustainability
+* Attached 'news:/.../Stories - 100 most recent' and XSLT format to /campus/community/sustainability/index SPIF-RIGHT-COLUMN region.
+* Created news:/_Site Support/Formats/news SPIF - volunteering
+* Attached 'news:/.../Stories - 100 most recent' and XSLT format to /campus/community/volunteer/index SPIF-RIGHT-COLUMNTWO region.
+
 February 21, 2014
 
 * Bulk changed August 2011 stories to Story 2011 content type (8)
