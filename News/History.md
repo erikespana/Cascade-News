@@ -1,3 +1,7 @@
+March 5, 2014
+* Switched site://reboot/news/index to 'News Hub 4' Content Type.
+* Applied site:/API/.../Includes.xsl to the '10-HEAD' region at the template level.
+ 
 February 24, 2014
 
 * Created news:/_Site Support/Formats/news SPIF - sustainability
