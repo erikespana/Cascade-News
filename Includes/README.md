@@ -1,5 +1,5 @@
-Description
-An XSLT format that generates CSS and javascript include files for the <head> section of a page.
+**Description**
+An XSLT format that dynamically generates the include files (CSS and javascript) for the <head> section of a page.
 
 Goals
 * Ensure certain CSS and javascript code (e.g. Google Analytics) are added to each page.
@@ -7,7 +7,7 @@ Goals
 * Flexibility to add or remove certain components from individual pages via the data definition.
 
 * Default includes
-	* jQuery 1.8.2
+	* jQuery 1.6.4
 	* /_css/styles.css
 	* /_css/print.css
 	* Google Analytics
