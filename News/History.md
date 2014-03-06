@@ -61,28 +61,25 @@ November 23, 2010: Added "Subscribe to News" link to left navigation. Also added
 
 November 22, 2010
 * Added "more news" to the bottom of Recent Headlines
-* Created monthly archive pages.
-http://reboot.union.edu/news/stories/2010/11/index.php
-* Created an archive page for all news (i.e.: News, Union in the News, Around Campus), organized by month.
-http://reboot.union.edu/news/archives.php
+* Created monthly archive pages. E.g. http://www.union.edu/news/stories/2011/11/index.php
+* Created an archive page for all news (i.e.: News, Union in the News, Around Campus), organized by month. E.g. http://www.union.edu/news/stories/index.php
 
 October 15, 2010
-* You can add photo galleries to stories.
-http://reboot.union.edu/news/stories/2010/09/27-critical-stitch.php
+* You can add photo galleries to stories. E.g. http://www.union.edu/news/stories/2010/09/27-critical-stitch.php
 
 September 13, 2010
 * You can break-up the text of a long story with multiple images.
-http://reboot.union.edu/news/stories/2010/10/05-lgbtq-rally.php
+http://www.union.edu/news/stories/2010/10/05-lgbtq-rally.php
 * You can embed video in stories.
-http://reboot.union.edu/news/stories/2010/11/04-cirqueperforms.php
+http://www.union.edu/news/stories/2010/11/04-cirqueperforms.php
 * New "Around Campus" category is for faculty stories
-http://reboot.union.edu/news/around-campus.php
+http://www.union.edu/news/around-campus.php
 * The "Teaser" field is similar to "subhead" and used for RSS feeds.
 * Stories about upcoming events can disappear after the event has past: 
-http://reboot.union.edu/news/stories/2010/10/21-endoffeminism.php
+http://www.union.edu/news/stories/2010/10/21-endoffeminism.php
 * Consider pulling stories from Around Campus for the Faculty/Staff gateway
 * There should be a link to News from each gateway feeds
-http://reboot.union.edu/news/faculty-staff.php
+http://www.union.edu/news/faculty-staff.php
 * Feature stories won't always have good images.
 * No longer need to distinguish between news and press releases.
 * "Byline" is optional.
