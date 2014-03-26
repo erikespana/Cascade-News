@@ -1,6 +1,11 @@
-# Majors #
+###### Announcements
 
+Uses a Content Type Index Block that includes Page XML and pair that with a Velocity Format.
 Use the Content Module to list information about Union's majors, minors and programs.
+
+###### Union in the Media
+
+Uses a Content Type Index Block that includes Page XML and pair that with a Velocity Format.
 
 #### Summary ####
 * 1. Majors, Minors and Programs links
