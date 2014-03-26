@@ -1,35 +1,19 @@
 #### Announcements
 
-Index block (content type) paired with an XSLT Format.
-* Max Rendered Assets = 0
-* Does not include page XML
-* Indexes: regular content, system metadata, user metadata and appends calling page data
-* Sorted in descending order by creation date.
+* RECENTHEADLINES *
+* Index block: Stories (renders unlimited assets by content type without inline page XML)
+* Format: Archive - Announcements - teasers.xsl
 
 #### Union in the Media
 
-Index block (content type) paired with an XSLT Format.
-* Max Rendered Assets = 0
-* Does not include page XML
-* Indexes: regular content, system metadata, user metadata and appends calling page data
-* Sorted in descending order by creation date.
+*ARCHIVE-CURRENT*
+* Index block: Union in the media - metadata (renders unlimited assets by content type with inline page XML)
+* Format: Union in the media - metadata.xsl
 
-#### Summary ####
-* 1. Majors, Minors and Programs links
-* 2. List all 44 majors
-* 3. For each major, display the Content Introduction, Content Copy, Contact Info and Outcome data.
+*ARCHIVE-2012*
+* Index block: Union in the media (renders unlimited assets by content type with inline page XML)
+* Format: Union in the media.xsl
 
-#### Requirements ####
-* Cascade Server 6.10+ with Velocity 1.7
-* Kurogo 1.3
-
-#### Setup ####
-* Create a Content Type Index Block that indexes the content of each major.
-* Attach the block/format to a page region that generates the feeds-major.ini file.
-* Attach forms.vm or forms-count.vm to the same region as the XML block.
-
-#### majors.vm ####
-	
-* Generates a feeds.ini file for a grouped list of all majors.
-
-https://modolabs.jira.com/wiki/display/KDOC/Content+Module
+*ARCHIVE-2011*
+* Index block: News 2011 (renders unlimited assets by content type without inline page XML)
+* Format Union in the media - metadata.xsl
