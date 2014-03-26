@@ -1,11 +1,18 @@
-###### Announcements
+#### Announcements
 
-Uses a Content Type Index Block that includes Page XML and pair that with a Velocity Format.
-Use the Content Module to list information about Union's majors, minors and programs.
+Index block (content type) paired with an XSLT Format.
+* Max Rendered Assets = 0
+* Does not include page XML
+* Indexes: regular content, system metadata, user metadata and appends calling page data
+* Sorted in descending order by creation date.
 
-###### Union in the Media
+#### Union in the Media
 
-Uses a Content Type Index Block that includes Page XML and pair that with a Velocity Format.
+Index block (content type) paired with an XSLT Format.
+* Max Rendered Assets = 0
+* Does not include page XML
+* Indexes: regular content, system metadata, user metadata and appends calling page data
+* Sorted in descending order by creation date.
 
 #### Summary ####
 * 1. Majors, Minors and Programs links
