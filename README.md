@@ -1,6 +1,5 @@
 
-###### Vision
-Publishes news articles and photos under 3 main categories: "Releases", "Announcements" and "Union in the Media". faensures the publishing of online news articles with accompanying photos and videos.
+A system that facilitates the online publication of news articles, with accompanying photos. Articles can be categorized as Releases, Announcements and Union in the Media.
 
 ###### Motivation
 Having different categories of news allows us to syndicate to different parts of the website.
@@ -9,7 +8,7 @@ Having different categories of news allows us to syndicate to different parts of
 Web Communications
 
 ###### Timing and Length
-The previous month most be archives at the beginning of the following month.
+* Each month, the previous month's articles must be archived.
 
 ###### Measurement Standards
 Photos uploaded to the CMS for:
