@@ -1,20 +1,26 @@
 
-What
-This system ensures the publishing of online news articles with accompanying photos and videos.
+###### Vision
+Publishes news articles and photos under 3 main categories: "Releases", "Announcements" and "Union in the Media". faensures the publishing of online news articles with accompanying photos and videos.
 
-Why
+###### Motivation
 Having different categories of news allows us to syndicate to different parts of the website.
 
-Who
+###### Accountability
 Web Communications
 
-When
+###### Timing and Length
 The previous month most be archives at the beginning of the following month.
 
-How much
+###### Measurement Standards
+Photos uploaded to the CMS for:
+* individual placement with an article are automatically resized (based on orientation) to 250 px.
+* use in a photo gallery are automatically resized (based on orientation) to 700 px.
+* use as a thumbnail on www.union.edu, must first be cropped to 177 x 108.
+* use as a thumbnail on www.union.edu/news must first be cropped to 688 x 250.
 
-With what
-
+###### Required Resources
+* Cascade Server
+* Photoshop
 
 * **Story - 5 copy and image flickr.xsl **
 
