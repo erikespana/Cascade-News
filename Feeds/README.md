@@ -1,6 +1,6 @@
 #### Announcements
 
-* RECENTHEADLINES *
+*RECENTHEADLINES*
 * Index block: Stories (renders unlimited assets by content type without inline page XML)
 * Format: Archive - Announcements - teasers.xsl
 
