@@ -1,5 +1,5 @@
 
-A system that facilitates the online publication of news articles, with accompanying photos. Articles can be categorized as Releases, Announcements and Union in the Media.
+A system that facilitates the online publication of news articles, with accompanying photos. Articles are categorized as Releases, Announcements or Union in the Media.
 
 ###### Motivation
 Having different categories of news allows us to syndicate to different parts of the website.
