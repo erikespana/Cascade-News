@@ -4,9 +4,9 @@
 * Format: Archive - Announcements - teasers.xsl
 
 #### Union in the Media
-*ARCHIVE-CURRENT*
-* Index block: Union in the media - metadata (renders unlimited assets by content type with inline page XML)
-* Format: Union in the media - metadata.xsl
+- ARCHIVE-CURRENT
+	- Index block: Union in the media - metadata (renders unlimited assets by content type with inline page XML)
+	- Format: Union in the media - metadata.xsl
 
 *ARCHIVE-2012*
 * Index block: Union in the media (renders unlimited assets by content type with inline page XML)
