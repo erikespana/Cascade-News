@@ -24,3 +24,10 @@
 	- **Block**: News 2011
 		- Content type index, unlimited assets rendered does not include page XML
 	- **Format**: Union in the media - metadata.xsl
+
+#### Student News
+Displays the 15 most recent articles tagged as being about students.
+- RECENTHEADLINES
+	- **Block**: Stories - 100 most recent
+		- Content type index, renders the 100 most recent assets, does not include page XML
+	- **Format**: SecondaryPage - Students.xsl
