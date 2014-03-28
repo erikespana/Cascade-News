@@ -1,21 +1,8 @@
-
-A system that facilitates the online publication of news articles, with accompanying photos. Articles are categorized as Releases, Announcements or Union in the Media.
-
 ###### Motivation
 Having different categories of news allows us to syndicate to different parts of the website.
 
 ###### Accountability
 Web Communications
-
-###### Timing and Length
-* Each month, the previous month's articles must be archived.
-
-###### Measurement Standards
-Photos uploaded to the CMS for:
-* individual placement with an article are automatically resized (based on orientation) to 250 px.
-* use in a photo gallery are automatically resized (based on orientation) to 700 px.
-* use as a thumbnail on www.union.edu, must first be cropped to 177 x 108.
-* use as a thumbnail on www.union.edu/news must first be cropped to 688 x 250.
 
 ###### Required Resources
 * Cascade Server
